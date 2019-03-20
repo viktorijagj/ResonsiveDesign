@@ -1,0 +1,14 @@
+{
+  "name": "modern-design",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio design-website",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Viktorija Gjorgjievska",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
