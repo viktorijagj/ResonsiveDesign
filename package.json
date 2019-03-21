@@ -4,7 +4,7 @@
   "description": "Responsive Portfolio design-website",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Viktorija Gjorgjievska",
   "license": "ISC",
