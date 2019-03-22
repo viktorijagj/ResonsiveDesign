@@ -1,11 +1,19 @@
 //Responsive for weidescreens
 
 @include responsiveXl{
+    .projects{
+        grid-template-columns: repeat(4, 1fr);
+
+    }
 
 }
 //Responsive for desktop
 
 @include responsiveL{
+    .projects{
+        grid-template-columns: repeat(3, 1fr);
+
+    }
 
 }
 //Responsive for tablets
@@ -56,6 +64,10 @@
     grid-template-columns: 1fr;
     
    }
+   .projects{
+    grid-template-columns: repeat(2, 1fr);
+
+}
 }
 //Responsive for smartphones
 
@@ -76,6 +88,10 @@ main{
     .sm-heading{
         font-size: 1rem;
     }
+}
+.projects{
+    grid-template-columns: 1fr;
+
 }
 
 }
