@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio design-website",
   "main": "index.js",
-  "homepage": "https://github.com/viktorijagj/ResonsiveDesign",
+  "homepage": "https://viktorijagj.github.io/ResonsiveDesign",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
